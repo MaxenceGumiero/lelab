@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="lelab.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="HelveticaNeue-Thin">
+                <On Platform="Android" Value="HelveticaNeue-Thin.ttf#HelveticaNeue-Thin" />
+            </OnPlatform>
+            <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="#ffffff" />
+                <Setter Property="BarBackgroundColor" Value="#4e89a3"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="#ffffff" />
+            </Style>
+            <Style x:Key="boutonLabStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#518faa" />
+                <Setter Property="TextColor" Value="#ffffff" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

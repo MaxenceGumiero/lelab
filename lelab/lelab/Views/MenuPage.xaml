@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Menu"
+             x:Class="lelab.Views.MenuPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout BackgroundColor="#518faa" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Image Source="lab_logo.png" HeightRequest="100" Margin="0, 50, 0, 0" />
+                <Label Text="LE LAB" FontFamily="{StaticResource HelveticaNeue-Thin}" HorizontalTextAlignment="Center" TextColor="#ffffff" FontSize="30" Margin="0, 20, 0, 20" />
+            </StackLayout>
+            <Image Source="lab_separator.png" Aspect="Fill"/>
+            <StackLayout Spacing="15" Margin="30, 20" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Button Text="COMPTEUR" Style="{StaticResource boutonLabStyle}" BackgroundColor="#c1ab24" HorizontalOptions="FillAndExpand" Clicked="GoToCounter"/>
+                <Button Text="TABS" Style="{StaticResource boutonLabStyle}" BackgroundColor="#a4881c" HorizontalOptions="FillAndExpand" Clicked="TabsButtonClick"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
