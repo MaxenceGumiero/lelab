@@ -16,7 +16,7 @@
             <StackLayout Spacing="15" Margin="30, 20" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Button Text="COMPTEUR" Style="{StaticResource boutonLabStyle}" BackgroundColor="#c1ab24" HorizontalOptions="FillAndExpand" Clicked="GoToCounter"/>
                 <Button Text="TABS" Style="{StaticResource boutonLabStyle}" BackgroundColor="#a4881c" HorizontalOptions="FillAndExpand" Clicked="TabsButtonClick"/>
-                <Button Text="LISTE" Style="{StaticResource boutonLabStyle}" BackgroundColor="#c60e3c" HorizontalOptions="FillAndExpand" Clicked="TabsButtonClick"/>
+                <Button Text="LISTE" Style="{StaticResource boutonLabStyle}" BackgroundColor="#c60e3c" HorizontalOptions="FillAndExpand" Clicked="ListButtonClick"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
