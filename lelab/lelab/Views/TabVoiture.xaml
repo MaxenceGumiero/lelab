@@ -9,7 +9,7 @@
              x:Class="lelab.Views.TabVoiture">
     <ContentPage.Content>
         <StackLayout Margin="30, 0" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
-            <Image Source="lab_voiture.png" />
+            <Image x:Name="voitureImage" Source="lab_voiture.png" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

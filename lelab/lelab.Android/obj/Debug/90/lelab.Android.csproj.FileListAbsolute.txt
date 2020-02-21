@@ -475,3 +475,9 @@ C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\
 C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_separator.png
 C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_avion.png
 C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_voiture.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_icon_compteur.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_icon_voiture.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\lab_icon_avion.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\icon.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\res\drawable\splash.9.png
+C:\Users\maxen\source\repos\lelab\lelab\lelab.Android\obj\Debug\90\android\src\crc64271109b2db3373b4\MainActivity_SplashActivity.java

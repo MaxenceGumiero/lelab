@@ -16,3 +16,4 @@ C:\Users\maxen\source\repos\lelab\lelab\lelab\obj\Debug\netstandard2.0\Views\Men
 C:\Users\maxen\source\repos\lelab\lelab\lelab\obj\Debug\netstandard2.0\Views\TabAvion.xaml.g.cs
 C:\Users\maxen\source\repos\lelab\lelab\lelab\obj\Debug\netstandard2.0\Views\TabsPage.xaml.g.cs
 C:\Users\maxen\source\repos\lelab\lelab\lelab\obj\Debug\netstandard2.0\Views\TabVoiture.xaml.g.cs
+C:\Users\maxen\source\repos\lelab\lelab\lelab\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs

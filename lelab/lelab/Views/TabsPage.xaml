@@ -4,8 +4,16 @@
             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             xmlns:views="clr-namespace:lelab.Views"
+            Title="Tabs"
             mc:Ignorable="d"
             x:Class="lelab.Views.TabsPage">
-    <views:TabVoiture />
-    <views:TabAvion />
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <OnPlatform.iOS>White</OnPlatform.iOS>
+            <OnPlatform.Android>#508ca7</OnPlatform.Android>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+    <views:TabVoiture Icon="lab_icon_voiture.png" />
+    <views:TabAvion Icon="lab_icon_avion.png" />
+    <views:CountPage Icon="lab_icon_compteur.png" />
 </TabbedPage>

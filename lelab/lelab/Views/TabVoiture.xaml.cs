@@ -15,6 +15,24 @@ namespace lelab.Views
         public TabVoiture()
         {
             InitializeComponent();
+            voitureImage.Opacity = 0;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            voitureImage.TranslationX = 0;
+            voitureImage.Opacity = 0;
+            voitureImage.FadeTo(1, 500);
+            voitureImage.TranslateTo(50, 0, 500, Easing.SinOut);
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            voitureImage.TranslationX = 0;
+            voitureImage.Opacity = 0;
+
         }
     }
 }
