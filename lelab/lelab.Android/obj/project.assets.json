@@ -1932,24 +1932,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maxen\\.nuget\\packages\\": {},
+    "C:\\Users\\HB\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxen\\source\\repos\\lelab\\lelab\\lelab.Android\\lelab.Android.csproj",
+      "projectUniqueName": "C:\\Users\\HB\\source\\repos\\lelab\\lelab\\lelab.Android\\lelab.Android.csproj",
       "projectName": "lelab.Android",
-      "projectPath": "C:\\Users\\maxen\\source\\repos\\lelab\\lelab\\lelab.Android\\lelab.Android.csproj",
-      "packagesPath": "C:\\Users\\maxen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxen\\source\\repos\\lelab\\lelab\\lelab.Android\\obj\\",
+      "projectPath": "C:\\Users\\HB\\source\\repos\\lelab\\lelab\\lelab.Android\\lelab.Android.csproj",
+      "packagesPath": "C:\\Users\\HB\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HB\\source\\repos\\lelab\\lelab\\lelab.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\maxen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HB\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1963,8 +1963,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\maxen\\source\\repos\\lelab\\lelab\\lelab\\lelab.csproj": {
-              "projectPath": "C:\\Users\\maxen\\source\\repos\\lelab\\lelab\\lelab\\lelab.csproj"
+            "C:\\Users\\HB\\source\\repos\\lelab\\lelab\\lelab\\lelab.csproj": {
+              "projectPath": "C:\\Users\\HB\\source\\repos\\lelab\\lelab\\lelab\\lelab.csproj"
             }
           }
         }
